@@ -1,4 +1,3 @@
-
 // Cat Component
 class Cat extends React.Component {
     // State Declaration
@@ -23,7 +22,6 @@ class Cat extends React.Component {
     }
 };
 
-
 // Cafe Component
 class Cafe extends React.Component {
     render() {
@@ -40,4 +38,3 @@ const myElement = <Cafe />;
 const myApp = myElement;
 
 ReactDOM.createRoot(document.getElementById('root')).render(myApp);
-

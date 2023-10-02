@@ -1,4 +1,3 @@
-
 // Class Component
 class Practice1 extends React.Component {
     render() {
@@ -7,7 +6,6 @@ class Practice1 extends React.Component {
 }
 let myElement = <Practice1 />;
 
-
 // Props in Class Component
 class Practice2 extends React.Component {
     render() {
@@ -15,7 +13,6 @@ class Practice2 extends React.Component {
     }
 }
 myElement = <Practice2 topic="ReactJS"/>;
-
 
 // Props Children in Class Component
 class Practice3 extends React.Component {
@@ -28,4 +25,3 @@ myElement = <Practice3 module="01">ReactJS</Practice3>;
 const myApp = myElement;
 
 ReactDOM.createRoot(document.getElementById('root')).render(myApp);
-

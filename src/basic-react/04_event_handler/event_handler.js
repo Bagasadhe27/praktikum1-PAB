@@ -1,6 +1,5 @@
-// FUNCTIONAL COMPONENT
-
-// Button Component
+// // FUNCTIONAL COMPONENT
+// // Button Component
 // const MyButton = (props) => {
 //     const handleButtonClick = () => {
 //         alert(props.message);
@@ -14,7 +13,7 @@
 // }
 
 
-// App Component
+// // App Component
 // const MyApp = () => {
 //     return (
 //         <div>

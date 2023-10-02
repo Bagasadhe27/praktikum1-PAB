@@ -21,6 +21,6 @@ class Handphone extends Gadget {
     }
 }
 
-let handphone = new Handphone("iphone", "14 Pro Max");
+let handphone = new Handphone("Samsung", "Samsung A71");
 
 console.log(handphone.show());

@@ -28,4 +28,4 @@ hello = (myName) => "Hello " + myName + "! This is from Arrow Function";
 // Arrow Function with 1 parameter
 hello = myName => `Hello ${myName}! This is from Arrow Function`;
 
-console.log(hello("Purnama"));
+console.log(hello("Bagas Adhe Prasetya"));

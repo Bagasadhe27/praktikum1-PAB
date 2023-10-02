@@ -1,4 +1,3 @@
-
 // Functional Component
 const ReactTitle = () => {
     return <h3>Currently learning ReactJS</h3>
@@ -17,7 +16,6 @@ const MyComponent = () => {
 }
 let myElement = <MyComponent />
 
-
 // Props in Functional Component
 const Practice = (props) => <h3>Practice: {props.course}</h3>;
 myElement = (
@@ -31,4 +29,3 @@ myElement = (
 const myApp = myElement;
 
 ReactDOM.createRoot(document.getElementById('root')).render(myApp);
-

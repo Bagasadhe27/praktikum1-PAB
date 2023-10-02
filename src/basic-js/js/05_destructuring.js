@@ -1,46 +1,46 @@
 console.log("------ Destructuring ------");
 
-// Array
-let items = ["Table", "Handphone", "Computer"];
+// // Array
+// let items = ["Table", "Handphone", "Computer"];
 
-// Manual variable declaration
-let item1 = items[0];
-let item2 = items[1];
-let item3 = items[2];
+// // // Manual variable declaration
+// let item1 = items[0];
+// let item2 = items[1];
+// let item3 = items[2];
 
-console.log(item1);
-console.log(item2);
-console.log(item3);
+// console.log(item1);
+// console.log(item2);
+// console.log(item3);
 
-// Variable declaration with destructuring
-let [item_1, item_2, item_3] = items
+// // Variable declaration with destructuring
+// let [item_1, item_2, item_3] = items
 
-console.log(item_1);
-console.log(item_2);
-console.log(item_3);
+// console.log(item_1);
+// console.log(item_2);
+// console.log(item_3);
 
-// Object
+// // Object
 let student = {
-    name: "Ahmad",
-    age: 22,
+    name: "Bagas Adhe Prasetya",
+    age: 21,
     department: "Information System"
 }
 
 // Manual variable declaration
-let studentName = student.name;
-let studentAge = student.age;
-let studentDepartment = student.department;
+// let studentName = student.name;
+// let studentAge = student.age;
+// let studentDepartment = student.department;
 
-console.log(studentName);
-console.log(studentAge);
-console.log(studentDepartment);
+// console.log(studentName);
+// console.log(studentAge);
+// console.log(studentDepartment);
 
-// Variable declaration with destructuring
-let {name, age, department} = student;
+// // Variable declaration with destructuring
+// let {name, age, department} = student;
 
-console.log(name);
-console.log(age);
-console.log(department);
+// console.log(name);
+// console.log(age);
+// console.log(department);
 
 // Destructuring by providing aliases
 let {name: objectName, age: objectAge, department: objectDepartment} = student;
@@ -62,4 +62,4 @@ let {
 
 console.log(studentNameData);  
 console.log(studentAgeData); 
-console.log(studentDepartmentData);  
+console.log(studentDepartmentData); 
